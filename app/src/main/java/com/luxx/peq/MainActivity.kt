@@ -183,4 +183,3 @@ private fun ResponseGraph(bands: List<EqBand>, preamp: Float) {
 private fun freqLabel(value: Float): String = if (value >= 1000) "%.1fk".format(value / 1000) else "${value.toInt()} Hz"
 private fun ln(v: Float) = kotlin.math.ln(v)
 private fun exp(v: Float) = kotlin.math.exp(v)
-
